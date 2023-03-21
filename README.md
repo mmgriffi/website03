@@ -6,7 +6,9 @@
 <li>four</li>
 <p><i>this is an italic font</i></p>
 
-~~remove this line ~~
+~~remove this line~~
+
+**This text is _extremely_ important**
 
 # A first-level heading
 ## A second-level heading
