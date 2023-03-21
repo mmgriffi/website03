@@ -6,6 +6,8 @@
 <li>four</li>
 <p><i>this is an italic font</i></p>
 
+~~remove this line ~~
+
 # A first-level heading
 ## A second-level heading
 ### A third-level heading
