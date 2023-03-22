@@ -6,8 +6,11 @@ jobs:
   greeting:
     runs-on: ubuntu-latest
     steps:
-      - name : Step1
+      - name : Hello
         run: echo "Hello World"
-      - name : Step2
+      - name : Listing
         run: ls -lart
+      - name : resources
+        run: df -k
+       
    
