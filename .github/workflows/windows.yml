@@ -1,4 +1,4 @@
-name: Windows Manual test
+name: Manual Windows Workflow
 on: [workflow_dispatch]
 
 jobs:
