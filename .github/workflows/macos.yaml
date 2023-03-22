@@ -1,4 +1,4 @@
-name: MAC OS Workflow
+name: Manual MAC OS Workflow
 on: [workflow_dispatch]
 
 jobs:
