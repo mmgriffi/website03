@@ -1,7 +1,7 @@
 on: [workflow_dispatch]
 
 jobs:
-  MACOS_greeting:
+  Name : MACOS_greeting:
     runs-on: macos-latest
     steps:
       - name : Hello
