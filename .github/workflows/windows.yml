@@ -1,0 +1,11 @@
+name: Windowstest
+on: [workflow_dispatch]
+
+jobs:
+  greeting:
+    runs-on: windows-latest
+    steps:
+      - name : Hello
+        run: powershell write-host "Hello this is powershell"
+      - name : environment
+        run:  set
