@@ -8,4 +8,4 @@ jobs:
       - name : Hello
         run: powershell write-host "Hello this is powershell"
       - name : environment
-        run:  set
+        run:  powershell "dir env:"
