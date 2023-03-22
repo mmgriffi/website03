@@ -1,6 +1,6 @@
-name: Greetings
+name: Greetings-Ubuntu
 
-on: [push]
+on: [workflow_dispatch]
 
 jobs:
   greeting:
