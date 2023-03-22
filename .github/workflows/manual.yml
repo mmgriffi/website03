@@ -7,9 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name : Hello
-        run: echo "Hello World"
+        run: uname ; echo "Hello World"
       - name : Listing
         run: ls -lart
       - name : python
         run: python3 --version
+      - name : environment
+        run:  set
     
