@@ -1,0 +1,10 @@
+on: [workflow_dispatch]
+
+jobs:
+  MACOS_greeting:
+    runs-on: macos-latest
+    steps:
+      - name : Hello
+        run: uname ; echo "Hello World"
+      - name : environment
+        run:  set
