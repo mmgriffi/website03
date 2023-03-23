@@ -1,5 +1,5 @@
-name: hello-world
-on: push
+name: Manual Docker test
+on: workflow_dispatch
 jobs:
   my-job:
     runs-on: docker-runner-05
