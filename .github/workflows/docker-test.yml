@@ -1,0 +1,8 @@
+name: hello-world
+on: push
+jobs:
+  my-job:
+    runs-on: docker-runner-05
+    steps:
+      - name: Docker
+        run: docker version 
