@@ -2,7 +2,7 @@ name: Manual Docker test
 on: workflow_dispatch
 jobs:
   docker_helloworld:
-    runs-on: docker-runner-05
+    runs-on: centos764_4
     steps:
       - name: Docker
         run: docker version 
