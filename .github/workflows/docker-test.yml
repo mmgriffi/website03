@@ -4,5 +4,7 @@ jobs:
   docker_helloworld:
     runs-on: centos764_4
     steps:
+      - name : whoareu
+        run : whoami
       - name: Docker
-        run: docker version 
+        run: docker version
