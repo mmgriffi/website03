@@ -4,7 +4,7 @@ on: [workflow_dispatch]
 
 jobs:
   greeting:
-    runs-on: [mgrunner01]
+    runs-on: [mgrunner01,Linux]
     steps:
       - name : Hello
         run: uname ; echo "Hello World"
