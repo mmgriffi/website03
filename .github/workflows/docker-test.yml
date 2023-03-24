@@ -8,3 +8,5 @@ jobs:
         run : whoami
       - name: Docker
         run: docker version
+      - name: run hello-world
+        run : docker run hello-world
