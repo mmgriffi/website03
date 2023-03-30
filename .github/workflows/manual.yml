@@ -17,3 +17,5 @@ jobs:
         run:  set
       - name : showvariable
         run : echo $env_var
+      - name : show company
+        run : echo ${{ vars.COMPANY }}
