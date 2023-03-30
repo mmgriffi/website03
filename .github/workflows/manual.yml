@@ -2,7 +2,7 @@ name: Manual Workflow - greeting
 
 on: [workflow_dispatch]
 env:
-  env_var : ${{ vars:APPLICATION_NAME }}
+  env_var : ${{ vars.APPLICATION_NAME }}
 jobs:
   greeting:
     runs-on: [self-hosted]
