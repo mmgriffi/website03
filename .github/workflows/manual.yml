@@ -1,7 +1,8 @@
 name: Manual Workflow - greeting
 
 on: [workflow_dispatch]
-
+env:
+  env_var : ${{vars:APPLICATION_NAME}}
 jobs:
   greeting:
     runs-on: [self-hosted]
@@ -15,5 +16,4 @@ jobs:
       - name : environment
         run:  set
       - name : showvariable
-        run : echo ${{vars:APPLICATION_NAME}}
-    
+        run : echo $env_var
