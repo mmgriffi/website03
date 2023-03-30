@@ -45,4 +45,4 @@ jobs:
     if: ${{ failure() }}
     steps:
       - uses: actions/checkout@v3
-      - run: ./debug
+      - run: echo $BUILD_ID failed
