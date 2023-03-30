@@ -1,4 +1,4 @@
-name: Manual Ubuntu Workflow
+name: Manual Workflow - greeting
 
 on: [workflow_dispatch]
 
