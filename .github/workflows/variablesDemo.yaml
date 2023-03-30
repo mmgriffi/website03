@@ -1,4 +1,4 @@
-name: demo_of_variables
+name: demo_of_variable_in_jobs
 on: workflow_dispatch
 env:
   mascot: Mona
