@@ -15,5 +15,5 @@ jobs:
       - name : environment
         run:  set
       - name : showvariable
-        run : echo ${{github:APPLICATION_NAME}}
+        run : echo ${{vars:APPLICATION_NAME}}
     
