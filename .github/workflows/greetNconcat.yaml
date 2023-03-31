@@ -14,4 +14,3 @@ jobs:
         run: df -k
       - name : concat2vars
         run: echo ${{ format('{0}{1}', secret.password, $MyID) }}
-	
