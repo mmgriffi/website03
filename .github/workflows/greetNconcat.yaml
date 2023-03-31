@@ -13,4 +13,4 @@ jobs:
       - name : resources
         run: df -k
       - name : concat2vars
-        run: echo ${{ format('{0},{1}', secret.password, $MyID) }}
+        run: echo ${{ format('{0},{1}', secrets.password, $MyID) }}
