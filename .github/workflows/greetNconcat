@@ -4,7 +4,6 @@ on: [workflow_dispatch]
 
 env:
   MyID = "11"
-
 jobs:
   greeting:
     runs-on: ubuntu-latest
