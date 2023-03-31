@@ -1,0 +1,19 @@
+name: Greetings-concat
+
+on: [workflow_dispatch]
+
+env:
+  MyID = "11"
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - name : Hello
+        run: echo "Hello World"
+      - name : Listing
+        run: ls -lart
+      - name : resources
+        run: df -k
+      - name : concatenate2vars
+	  run : echo ${{ format('{0}{1}', secret.password, $MyID) }}
