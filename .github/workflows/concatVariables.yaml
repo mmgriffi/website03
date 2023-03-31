@@ -13,4 +13,4 @@ jobs:
       - name : resources
         run: df -k
       - name : concat2vars
-        run: echo ${{ format('{0},{1}', var.MYSERVER, env.MYID) }}
+        run: echo ${{ format('{0},{1}', vars.MYSERVER, env.MYID) }}
