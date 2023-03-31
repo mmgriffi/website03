@@ -1,7 +1,7 @@
 name: Greetings-concat
 on: [workflow_dispatch]
 env:
-  MyID : 11
+  MYID : 11
 jobs:
  greeting:
     runs-on: ubuntu-latest
@@ -13,4 +13,4 @@ jobs:
       - name : resources
         run: df -k
       - name : concat2vars
-        run: echo ${{ format('{0},{1}', secrets.MYPASSWD, MyID) }}
+        run: echo ${{ format('{0},{1}', secrets.MYPASSWD, $MYID) }}
